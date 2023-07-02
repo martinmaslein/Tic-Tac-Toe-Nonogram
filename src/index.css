@@ -1,0 +1,97 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.board {
+  display: grid;
+}
+
+.horizontal {
+  display: flex;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.rowClues {
+  display: grid;
+  flex-direction: row;
+}
+
+.colClues {
+  display: grid;
+}
+
+.clue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #589ea3;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.clueGREEN {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1e8a54;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.clueRED {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #b6283b;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.clue div {
+  margin: 1px;
+}
+
+.colClues .clueRED {
+  flex-direction: column;
+}
+
+.colClues .clueGREEN {
+  flex-direction: column;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gameInfo {
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.switch-panel{ 
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
